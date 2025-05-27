@@ -29,7 +29,8 @@ Created the ERD diagram with Elianne. A majority of my effort was on getting the
 I then went and used the relational diagram to create the SQL tables. I had to take time to think about how to properly display attributes as the right datatype. Afterwards, I went in an created at least two INSERTs for every single entity. This was done to ensure that we had a table that actually works. I then proceed to send the SQL file to my teammate who double checked my work. I also then copied the url to the raw sql file to add as a link to the phase 2 team blog post!
 
 #### Other
-I went through with a photoshop adjacent tool to create a logo for our app OpenPort
+I went through with a photoshop adjacent tool to create a logo for our app OpenPort.
+I also did the Diplomat wire frame and wrote descriptions some of the wire frames
 
 ### Other
 The most notable experience of my phase 2 outside of the incredible deliverables I worked on was a trip I took on a free day to the world famous (and F1 grade) race track Circuit de Spa-Francochamps in the southern region of Belgium. I went to attend the spa classic and it was truly an exprience to remember as I saw classic touring and endurance cars racing around from just a few feet from the actual track, including one of my personal favorites, the Ford GT. I even managed to snag a grid walk pass and I was able to walk on the track itself before one of the races. It was a relativly cheap and exciting event that I would highly recommend.

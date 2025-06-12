@@ -51,12 +51,6 @@ For our logistic regression model we used the geo (country to), age, sex, and ci
 
 This model shows the actual vs predicted acceptance rates using the logistic regression model. Using the plot it shows that the logistic regression model is accurately working for the majority of the data. For example as the actual acceptance rate increases, so does the predicted acceptance rate. Yet there is some data that isn’t correctly being read causing the plot to have segments of data that doesn’t fit the positive linear trend. The correlation of the model is around 0.645 which is above average, while it could still be improved the model still provides accurate information for the most time.
 
-The following plots check the assumptions for the logistic regression model. The histogram proves the assumption of normality since the data follows a normal distribution around -12. Ideally the distribution would be around 0 but since the model isn’t perfectly precise, it would make sense the normality would be shifted, but it’s still distributed normally. The residual plot versus order proves no autocorrelation since the residuals maintain the same/similar throughout all indexes of the data. The residual plot versus x values proves linearity and homoscedasticity since the acceptance rates all have similar residual points, besides the data the model wasn’t able to process, it proves homoscedasticity.
-
-![Histogram](/histogram.png)
-![scatter1](/scatter1.png)
-![scatter2](/scatter2.png)
-
 ## Time Series Forecasting 
 
 Our second machine learning model is our time series forecasting model. Our dataset includes the EU countries and the percentage of their GDP that goes towards social spending from 2011-2022. Our model forecasts out 5 years into the future, so we included 5 lag columns in our X matrix. We also had a COVID column to account for increased social spending during COVID years. This machine learning model will be primarily used my the EU Commissioner persona to be able to allocate funds strategically since the model will show them how much countries will spend on social programs in future years. The proof-of-concept model is fully finished, but we still need to cross validate and implement it into the actual app. As seen by the plots below, the time series model performs fairly well.
